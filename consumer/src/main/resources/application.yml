@@ -2,7 +2,7 @@ server:
   port: 8779
 
 mqtt:
-  host: tcp://10.138.67.17:1883
+  host: tcp://x.x.x.x:1883
   username: admin
   password: public
   #服务质量
@@ -11,7 +11,7 @@ mqtt:
   #2代表“只有一次”，确保消息到达一次。这一级别可用于如下情况，在计费系统中，消息重复或丢失会导致不正确的结果。
   qos: 1
   #服务器列表,多个以英文逗号拼接
-  hosts: tcp://10.138.67.17:1883
+  hosts: tcp://x.x.x.x:1883
   #超时时间 单位为秒
   connectionTimeout: 10
   #会话心跳时间 单位为秒
